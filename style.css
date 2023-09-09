@@ -1,0 +1,915 @@
+:root{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0;
+}
+@font-face { 
+    font-family:Futura-Medium;
+    src:url(https://melawater.com/cdn/shop/t/42/assets/FuturaPT-Bold.woff?v=42738038413863956891679950628) format("woff"),url(https://melawater.com/cdn/shop/t/42/assets/FuturaPT-Bold.woff2?v=163141782884992046311679950628) format("woff2");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+}
+@font-face { 
+    font-family:sunsetroad;
+    src:url(https://melawater.com/cdn/shop/t/42/assets/SunsetRoad.woff?v=128321053807351725931679950628) format("woff"),url(https://melawater.com/cdn/shop/t/42/assets/SunsetRoad.woff2?v=3986450393904177001679950628) format("woff2");
+    font-display:swap;
+} 
+
+
+.announcement-bar{
+    display: block;
+    background-color: crimson;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    
+}
+
+.announcement-info{
+    display: flex;
+    margin: auto;
+    font-size: medium;
+    
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.announcement-info :is(h4){
+    color: aqua;
+    margin: 2px 80px;
+    
+}
+/* --------------------------- FRONT -------------------------------------------------*/
+.front{
+    width: ;
+}
+.logo{
+    width: 100px;
+
+}
+nav{
+    overflow: visible;
+    width: 100%;
+    height: 110px;
+    margin: auto;
+    background-color: azure;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+
+
+}
+nav li{
+    display: inline-block;
+    font-size: xx-large;
+    margin: 0px 60px;
+    
+
+}
+nav a{
+    position: relative;
+    display: block;
+    bottom: 30px;
+    text-decoration: none;
+    font-family:'Futura-Medium' ;
+    font-weight: 600;
+    
+
+   
+}
+nav.split{
+    display: block;
+    
+}
+
+.logo{
+    
+    position: relative;
+    top: 25px;
+}
+
+/*                     front page                                         */
+
+.frontinfo{
+    width: 80%;
+    overflow: visible;
+    background-color: azure;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+.hero-heading { 
+    display: block;
+    line-height: 1.3em; 
+    margin-top: 30px; 
+    position: relative;
+    font-family: sunsetroad, cursive; 
+    text-transform: lowercase; 
+    font-weight: normal;
+    margin: 0 0 .5em; 
+    font-size: 100px;
+    margin-left: 20px;
+  } 
+
+.frontimg{
+   
+    
+    
+    
+}
+.frontimg img{
+    float: right;
+    width: 750px;
+    height: 550px;
+}
+
+
+#shopbutton {
+    border-top: 1px solid #2dd3ed;
+    margin-left: 20px;
+    padding: 12.5px 25px;
+    
+    list-style: none;
+    color: white;
+    border-radius: 17px;
+    background-color: rgb(231, 51, 87);
+    font-size: 25px;
+    font-family: 'Futura-Medium', Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.btn{
+    text-decoration: none;
+}
+#shopbutton:hover {
+    background-color: #2dd3ed;
+    color: yellow;
+    transition: all  0.5s ease-in.3s ; 
+    
+}
+
+a{
+    color: inherit;
+}
+
+
+/*                        secondpage                                  */
+.secondbg{
+    background-image: url(img/Gradientbg.png);
+    margin-top: 100px;
+    height: 900px;
+    
+}
+
+
+.secondpage{
+    width: 85%;
+    margin: auto;
+    
+    overflow: hidden;
+    
+   
+}
+
+
+
+.secondtitle{
+    position: relative;
+    font-family:'sunsetroad' ;
+    font-size: 85px;
+    letter-spacing: 5px;
+    width:100%;
+    word-spacing: 10px;
+    text-align: center;
+    bottom: 80px;
+    
+}
+
+#boxes{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#varietybox{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(128, 236, 233);
+    display: block;
+    position: relative;
+    bottom: 120px;
+    overflow: hidden;
+    line-height: 1.3em;
+}
+
+#firstboxtitle{
+    font-family:'Futura-Medium' ;
+    font-size:x-large;
+    text-align: center;
+    margin: 30px 20% 5px 20%;
+    display:inline-block;
+    position: absolute;
+    justify-content: center;
+}
+
+#firstboxtitle h4{
+    margin: 0%;
+}
+#firstimg{
+    height: 200px;
+    display: block;
+}
+
+#firstimg img{
+    width: 130%;
+    height: 250px;
+   
+    position: relative;
+    top: 100px;
+    right: 20px;
+    padding: 0%;  
+}
+
+#firstdetails{
+    display: block;
+    position: relative;
+    top: 150px;
+    margin: 5px auto 5px auto;
+    text-align: center;
+    font-family: 'Futura-Medium';
+}
+
+#addtocart{
+    background-color: rgb(235, 71, 71);
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 155px;
+    font-size: x-large;
+    font-family: 'Futura-Medium';
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#addtocart a{
+    text-decoration: none;
+    
+}
+    
+#addtocart:hover{
+    background-color: #2dd3ed;
+    color: yellow;
+    transition: all  0.5s ease-in 0.1s ; 
+}
+
+#secondvarietybox{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(239, 91, 91);
+    display: block;
+    position: relative;
+    bottom: 120px;
+    overflow: hidden;
+    line-height: 1.3em;
+    margin-left: 20px;
+}
+
+#thirdvarietybox{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(226, 91, 183);
+    display: block;
+    position: relative;
+    bottom: 120px;
+    overflow: hidden;
+    line-height: 1.3em;
+    margin-left: 20px;
+}
+
+#forthvarietybox{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(245, 245, 104);
+    display: block;
+    position: relative;
+    bottom: 120px;
+    overflow: hidden;
+    line-height: 1.3em;
+    margin-left: 20px;
+}
+
+
+#fifthvarietybox{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(247, 149, 69);
+    display: block;
+    position: relative;
+    bottom: 120px;
+    overflow: hidden;
+    line-height: 1.3em;
+    margin-left: 20px;
+
+}
+
+.note{
+    font-family: 'Futura-Medium';
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 50px;
+}
+
+/* ---------------------------------------------------THIRD PAGE------------------------------------------------------------- */
+
+#thirdpageBG{
+    background-image: url(img/gradient3rdpage1.png);
+    height: 960px;
+    background-position: center;
+    position: relative;
+    bottom: 40px;
+}
+
+
+#thirdpage{
+    width: 80%;
+    margin: auto;
+}
+
+.icons1{
+    width: 200px;
+    display: block;
+    position: relative;
+    top: 50px;
+
+}
+
+.icons2{
+    width: 50px;
+    display: block;
+    position: relative;
+    left: 45%;
+    bottom: 80px;
+
+}
+
+.icons3{
+    width: 150px;
+    display: block;
+    position: relative;
+    float: right ;
+    bottom: 220px;
+}
+
+#thirdpagetitle h3{
+    font-family: 'sunsetroad';
+    font-size: 90px;
+    text-align: center;
+    display:block;
+    position: relative;
+    bottom: 90px;
+    justify-content: center;
+    line-height: 1.1em;
+    word-spacing: 30px;
+    margin: 5px 25% 5px 25%;
+}
+
+#thirdpagetitle h4{
+    font-family: 'Futura-Medium';
+    font-size: xx-large;
+    text-align: center;
+    display:block;
+    position: relative;
+    bottom: 90px;
+    justify-content: center;
+    line-height: 1.1em;
+    word-spacing: 30px;
+    margin: 20px 25% 5px 25%;
+}
+
+#smalllogo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    font-family:'Futura-Medium';
+    font-size: large;
+    justify-content: center;
+    margin: 5px auto 5px auto;
+    text-align: center;
+    line-height: 1.3em;
+    word-spacing: 10px;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+#smalllogo img{
+    width: 100px;
+    
+}
+
+.logo2{
+    margin-left: 130px;
+    
+}
+
+#para{
+    font-family: 'Futura-Medium' ;
+    font-size: x-large;
+    text-align: center;
+    margin: 5px auto 5 px auto;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+#para p{
+    margin: 0px auto 20px auto;
+    width: 60%;
+    font-weight: lighter;
+    line-height: 1.4em;
+}
+
+/* ---------------------------------------FOUTH PAGE---------------------------------------------------- */
+
+#forthpage{
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    
+    
+}
+
+.forthicon{
+    
+}
+
+.fourthicons1{
+    display: block;
+    position: relative;
+    width: 180px;
+}
+.fourthicons2{
+    display: block;
+    position: relative;
+    width: 69px;
+    left: 90px;
+}
+.fourthicons3{
+    display: block;
+    position: relative;
+    width: 59px;
+    left: 50%;
+    bottom: 280px ;
+}
+.fourthicons4{
+    display: block;
+    position: relative;
+    width: 150px;
+    float: right;
+
+    bottom: 300px;
+}
+
+.forthtitle{
+    font-family:'sunsetroad';
+    font-size: 90px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.forthtitle h4{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    word-spacing: 20px;
+    display: block;
+    position: relative;
+    bottom: 250px;
+    line-height: 1.3em;
+}
+
+.forthtitle p{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 28px;
+    margin: auto;
+    line-height: 1.5em;
+    display: block;
+    position: relative;
+    bottom: 150px;
+    word-spacing: 5px;
+    font-family: 'Futura-Medium';
+}
+
+#buynow {
+    border-top: 1px solid #2dd3ed;
+    margin: auto;
+    padding: 12.5px 25px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 80px;
+    list-style: none;
+    color: white;
+    border-radius: 17px;
+    background-color: rgb(231, 51, 87);
+    font-size: 25px;
+    font-family: 'Futura-Medium', Arial, Sans-Serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+}
+#buynow:hover {
+    background-color: #2dd3ed;
+    color: yellow;
+    transition: all  0.5s ease-in.3s ; 
+    
+}
+
+/* ------------------------------------------------------FIFTH PAGE------------------------------------------------------- */
+
+#fifthbg{
+    background-image: url(img/natural-ingredients-bg.svg);
+    width: 100%;
+    margin-top: 50px;
+    height: 900px;
+}
+
+#fifthpage{
+    width: 80%;
+    overflow: visible;
+    margin: auto;
+}
+
+#fifthlogo{
+    width: 90%;
+    overflow: visible;
+    margin: auto;
+    
+}
+
+.fifthlogo1{
+    width: 220px;
+    display: block;
+    position: relative;
+    right: 90px;
+    bottom: 90px;
+    
+}
+
+.fifthlogo2{
+    width: 220px;
+    float: right;
+    display: block;
+    position: relative;
+    bottom: 290px;
+    left: 90px;
+
+}
+
+.fifthpagepic{
+    width: 500px;
+    float: right;
+    display: block;
+    position: relative;
+    left: 280px;
+    bottom: 100px;
+}
+
+#fifthtitle{
+    display: block;
+    position: relative;
+   
+    bottom: 200px;
+}
+
+#fifthtitle h4{
+  font-size: 80px;
+  font-family: 'sunsetroad';
+  line-height: 1.2em;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  display: block;
+    position: relative;
+}
+
+#fifthtitle p{
+    font-size: 1.6em;
+    font-family: 'Futura-Medium';
+    line-height: 1.2em;
+    word-spacing: 10px;
+    letter-spacing: normal;
+    display: block;
+    position: relative;
+    width: 50%;
+    color: white;
+    bottom: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+#sixthpage{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+
+#sixthicons{
+    margin: auto;
+    width: 80%;
+    overflow: visible;
+}
+
+#sixthicon1{
+    display: block;
+    position: relative;
+    width: 69px;
+    top: 150px;
+    right: 130px;
+}
+#sixthicon2{
+    display: block;
+    position: relative;
+    width: 299px;
+    left: 25%;
+}
+#sixthicon3{
+    display: block;
+    position: relative;
+    width: 59px;
+    float: right;
+    top: 50px;
+    left: 80px;
+}
+
+#sixthtitle{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+#sixthtitle h4{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Futura-Medium';
+    display: block;
+    position: relative;
+    top: 50px;
+    width: 50%;
+}
+
+#sixthtitle h3{
+    margin: auto;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'sunsetroad';
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 50%;
+    letter-spacing: 10px;
+}
+
+#triimg{
+    width: 90%;
+    display: flex;
+    
+    flex-direction:row ;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#melavideo{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    position: relative;
+    float: left;
+    top: 50px;
+    border-radius: 15%;
+    
+}
+
+#melaimg1{
+    width: 300px;
+    height: 500px;
+    float: left;
+    display: flex;
+    position: relative;
+    margin: 50px;
+    top: 50px;
+    border-radius: 10%;
+    
+}
+
+#melaimg2{
+    width: 300px;
+    height: 500px;
+    float: left;
+    display: flex;
+    position: relative;
+    margin: 50px;
+    top: 50px;
+    border-radius: 10%;
+}
+
+#lasticons{
+    margin: auto;
+    width: 80%;
+    overflow: visible;
+}
+
+#lasticon1{
+    display: block;
+    position: relative;
+    width: 160px;
+    top: 60px;
+    right: 180px;
+}
+#lasticon2{
+    display: block;
+    position: relative;
+    width: 160px;
+    float: right;
+    left: 220px;
+    bottom:100px ;
+}
+
+#brandicons{
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    justify-items: center;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    
+    
+}
+
+#instalogo{
+    width: 120px;
+    margin: 0 60px 0 160px;
+    display: inline-block;
+    height: 120px;
+    position: relative;
+ 
+}
+
+#fblogo{
+    width: 120px;
+    margin: 0 60px 0 50px;
+    display: inline-block;
+    position: relative;
+    height: 120px;
+   
+}
+
+#xlogo{
+    width: 120px;
+    display: inline-block;
+    margin:0 20px 0 50px;
+    height: 120px;
+    position: relative;
+    
+    
+    
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(241, 58, 58);
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+footer ul{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+
+footer a{    
+    text-decoration: none;
+}
+
+
+
+#productinfo{
+    
+    margin: 50px 100px 0px 100px;
+    line-height: 1.8em;
+    font-size: larger;
+    word-spacing: 10px;
+    list-style: none;
+    
+
+}
+
+#info{
+    margin: 50px 100px 0px 100px;
+    line-height: 1.8em;
+    font-size: larger;
+    word-spacing: 10px;
+    list-style: none;
+    
+}
+
+#shopinfo{
+    margin: 50px 100px 0px 100px;
+    line-height: 1.8em;
+    font-size: larger;
+    word-spacing: 10px;
+    list-style: none;
+    
+}
+    
+/*  ----------------------------------order form-------------------------------------------------------- */
+
+#form{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/secondbackgroundgaradient.png);
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+#form h1{
+    text-align: center;
+    text-decoration: underline;
+    color: crimson;
+}
+
+#order-form{
+    margin: auto;
+    width: 50%;
+    display: block;
+    align-items: center;
+}
+
+label {
+    color: rgb(231, 51, 87);
+    font-weight: bold;
+    display: block;
+    font-size: large;
+    width: 150px;
+    float: left;
+    }
+
+input{
+    width: 50%;
+    padding: 5px;
+}
+
+#ordernow{
+    background-color: rgb(235, 71, 71);
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 80px;
+    font-size: x-large;
+    font-family: 'Futura-Medium';
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    right: 100px;
+}
+
+
+    
+#ordernow:hover{
+    background-color: #2dd3ed;
+    color: yellow;
+    transition: all  0.5s ease-in 0.1s ; 
+}

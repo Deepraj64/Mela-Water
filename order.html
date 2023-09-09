@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=M+PLUS+1p&family=Merriweather&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="form">
+        <h1>Product Order Form</h1>
+    
+    <form id="order-form" method="post" href="mailto:roydeepraj64@gmail.com">
+        <label for="product">Select a Product:</label>
+        <select id="product" name="product">
+            <option value="product1">Variety Pack</option>
+            <option value="product2">The OG Watermelon</option>
+            <option value="product3">Watermelon + Pineapple</option>
+            <option value="product3">Watermelon + Passionfruit</option>
+            <option value="product3">Watermelon + Ginger</option>
+        </select>
+        <br><br> <br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+        <br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="street">Street Address:</label>
+        <input type="text" id="street" name="street" required>
+        <br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <br><br>
+
+        <label for="state">State/Province:</label>
+        <input type="text" id="state" name="state" required>
+        <br><br>
+
+        <label for="zip">ZIP/Postal Code:</label>
+        <input type="text" id="zip" name="zip" required>
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">India</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+            
+        </select>
+
+        
+      
+
+        <input id="ordernow" type="submit" value="Submit Order">
+    </form>
+    </body>
+</html>
